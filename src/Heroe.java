@@ -1,4 +1,5 @@
 /**
+ * Clase que alamacena el modelo que se obtiene del JSON
  * {
  *     "superhero":"Batman",
  *     "publisher":"DC Comics",

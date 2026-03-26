@@ -15,6 +15,9 @@ public class Main
 
     static Map<String, List<Heroe>> db = new HashMap<>();
 
+    /**
+     * Iniciación de la aplicación
+     */
     static void main() {
         try (Reader reader = new FileReader("src/heroes.json")) {
             Object content = new JSONParser().parse( reader );
